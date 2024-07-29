@@ -56,7 +56,7 @@ function Hero() {
             <img src={linkedinIcon} alt="LinkedIn" />
           </a>
         </span>
-        <p>
+        <p className={styles.description}>
           I'm a full-stack developer with a passion for building scalable and
           efficient applications.
         </p>
