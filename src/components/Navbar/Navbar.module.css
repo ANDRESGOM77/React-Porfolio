@@ -1,0 +1,49 @@
+.containerHeader {
+    background: #1e2326;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+
+.containerHeader section {
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+}
+
+.containerHeader section .logo a {
+    font-family: 'Righteous';
+    font-size: 36px;
+    color: #1cb698;
+    text-decoration: none;
+}
+
+.containerHeader section ul {
+    display: flex;
+    list-style: none;
+}
+
+.containerHeader section nav ul li a {
+    text-align: none;
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+.containerHeader section nav ul li a:hover {
+    color: #1cb698;
+}
+
+.navResponsive {
+    background-color: #1cb698;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: none;
+}
