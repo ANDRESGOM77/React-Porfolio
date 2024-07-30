@@ -1,0 +1,120 @@
+
+.aboutMe {
+    background-color: #1e2326;
+    color: #fff;
+    padding: 50px 20px;
+}
+
+.aboutMe .containerSection {
+    max-width: 1100px;
+    margin: auto;
+}
+
+.aboutMe h2 {
+    font-size: 48px;
+    font-family: 'Righteous';
+    text-align: center;
+    padding: 20px 0;
+}
+
+.aboutMe .containerSection p {
+    font: 18px;
+    line-height: 22px;
+    margin-top: 20px;
+}
+
+.aboutMe .containerSection p span {
+    color: #1cb698;
+    font-weight: bold;
+}
+
+.aboutMe .row {
+    display: flex;
+}
+
+.aboutMe .row .col {
+    width: 50%;
+}
+
+.aboutMe .row .col h3 {
+    font-size: 28px;
+    font-family: 'Righteous';
+    margin-top: 25px;
+}
+
+.aboutMe .row .col ul {
+    list-style: none;
+}
+
+.aboutMe .row .col ul li {
+    margin: 12px 0;
+}
+
+.aboutMe .row .col ul li strong {
+    display: inline-block;
+    color: #1cb698;
+    width: 130px;
+}
+
+.aboutMe .row .col ul li span {
+    background-color: #1cb698;
+    padding: 3px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.aboutMe .row .col .containerInterest {
+    display: flex;
+    flex-wrap: wrap
+}
+
+.aboutMe .row .col .containerInterest .interest {
+    width: 100px;
+    height: 100px;
+    background-color: #252a2e;
+    border-radius: 10PX;
+    margin: 0 15PX 15PX 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: .3s;
+}
+
+.aboutMe .row .col .containerInterest .interest:hover {
+    background-color: #1cb698;
+}
+
+.aboutMe .row .col .containerInterest .interest i {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.aboutMe button {
+    cursor: pointer;
+    background-color: transparent;
+    border: 2px solid #fff;
+    width: fit-content;
+    display: block;
+    margin: 20px auto;
+    padding: 10px 22px;
+    font-size: 16px;
+    color: #fff;
+    position: relative;
+    z-index: 10;
+}
+
+.aboutMe button .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background-color: #1cb698;
+    transition: 1s;
+    z-index: -1;
+}
+
+.aboutMe button:hover .overlay {
+    width: 100%;
+}
