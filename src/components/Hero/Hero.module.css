@@ -4,13 +4,13 @@
     justify-content: center;
     gap: 20px;
     text-align: center;
-    width: 400px;
+    width: 100%;
     height: 100dvh;
     min-height: 500px;
     justify-items: center;
 
     .hero {
-        max-width: 350px;
+        max-width: 400px;
         border-radius: 50%;
     }
 
