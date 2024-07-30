@@ -1,14 +1,59 @@
 import React from 'react'
 import styles from "./Projects.module.css"
-export default function Projects() {
-  return (
-    <section id="projects" className='styles.container'>
-        <h1 className='sectionTitle'>Projects</h1>
-        <div className={styles.projectsContainer}>
-            <a href="">
-                <img src="" alt="" />
-            </a>
+
+
+const Portfolio = () => {
+    return (
+      <section id="portfolio" className={styles.portfolio}>
+        <div className={styles.containerSection}>
+          <h2>PORTFOLIO</h2>
+          <div className={styles.gallery}>
+            <div className={styles.project}>
+              <img src="" alt="Project1" />
+              <div className={styles.overlay}>
+                <h3>Creative Design</h3>
+                <p>Photography</p>
+              </div>
+            </div>
+            <div className={styles.project}>
+              <img src="" alt="Project1" />
+              <div className={styles.overlay}>
+                <h3>Creative Design</h3>
+                <p>Photography</p>
+              </div>
+            </div>
+            <div className={styles.project}>
+              <img src="" alt="Project1" />
+              <div className={styles.overlay}>
+                <h3>Creative Design</h3>
+                <p>Photography</p>
+              </div>
+            </div>
+            <div className={styles.project}>
+              <img src="" alt="Project1" />
+              <div className={styles.overlay}>
+                <h3>Creative Design</h3>
+                <p>Photography</p>
+              </div>
+            </div>
+            <div className={styles.project}>
+              <img src="" alt="Project1" />
+              <div className={styles.overlay}>
+                <h3>Creative Design</h3>
+                <p>Photography</p>
+              </div>
+            </div>
+            <div className={styles.project}>
+              <img src="" alt="Project1" />
+              <div className={styles.overlay}>
+                <h3>Creative Design</h3>
+                <p>Photography</p>
+              </div>
+            </div>
+          </div>
         </div>
-    </section>
-  )
-}
+      </section>
+    );
+  };
+  
+  export default Portfolio;

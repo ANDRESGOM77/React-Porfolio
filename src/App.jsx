@@ -13,6 +13,8 @@ function App() {
       <Projects />
       <AboutMe />
       <Resume />
+      <Projects/>
+      
     </>
   );
 }

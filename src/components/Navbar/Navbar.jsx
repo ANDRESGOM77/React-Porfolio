@@ -10,12 +10,11 @@ export const Navbar = () => {
         </div>
         <nav id="nav" >
             <ul>
-                <li><a href="#" onclick="Select()">HOME</a></li>
-                <li><a href="#about-me" onclick="Select()">ABOUT </a></li>
-                <li><a href="#skills" onclick="Select()">SKILLS</a></li>
+                <li><a href="/" onclick="Select()">HOME</a></li>
+                <li><a href="#aboutMe" onclick="Select()">ABOUT </a></li>
                 <li><a href="#resume" onclick="Select()">RESUME</a></li>
                 <li><a href="#portfolio" onclick="Select()">PORTFOLIO</a></li>
-                <li><a href="#contact-me" onclick="Select()">CONTACT ME</a></li>
+                <li><a href="#contactMe" onclick="Select()">CONTACT ME</a></li>
             </ul>
         </nav>
         <div className={styles.navResponsive} onclick="ShowHideMenu()">
