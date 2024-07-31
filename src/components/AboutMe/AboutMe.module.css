@@ -1,8 +1,9 @@
 
 .aboutMe {
-    background-color: #1e2326;
     color: #fff;
     padding: 50px 20px;
+    height: 75dvh;
+    margin-top: 100px;
 }
 
 .aboutMe .containerSection {
