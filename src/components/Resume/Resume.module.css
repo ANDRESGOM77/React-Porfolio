@@ -44,7 +44,6 @@
   .resume .itemRight {
     padding: 25px;
     margin-bottom: 30px;
-    background-color: #252a2e;
     position: relative;
   }
   
@@ -56,7 +55,7 @@
   
   .resume .itemLeft .house,
   .resume .itemRight .house {
-    color: #1cb698;
+    color: var(--btn-color);
     font-size: 22px;
     font-weight: bold;
     display: block;
@@ -65,7 +64,7 @@
   .resume .itemLeft .date,
   .resume .itemRight .date {
     display: block;
-    color: #1cb698;
+    color: var(--btn-color);
     margin-bottom: 10px;
   }
   
@@ -75,53 +74,41 @@
   }
   
   .resume .itemLeft {
-    border-left: 2px solid #1cb698;
+    border-left: 2px solid var(--btn-color);
     margin-left: 20px;
   }
   
   .resume .itemRight {
-    border-right: 2px solid #1cb698;
+    border-right: 2px solid var(--btn-color);
     margin-left: 20px;
   }
   
-  .resume .itemLeft .conectorLeft {
-    height: 2px;
-    background-color: #1cb698;
-    width: 47px;
-    position: absolute;
-    top: 50%;
-    right: -47px;
-    z-index: 5;
+
+  .resume a {
+        width: fit-content;
+        align-self: center;
+      margin-left: 380px;
+      
+    }
+    
+    .resume button {
+        background-color: var(--btn-color);
+        color: var(--btn-text-color);
+        border: none;
+        border-radius: 20px;
+        width: 200px;
+        height: 50px;
+        font-size: 20px;
+        font-weight: bold;
+        box-shadow: 0 4px 4px rgb(0, 0, 0, 0.25);
+        transition: box-shadow 200ms ease-in-out transform 200ms ease-in-out;
+        margin-top: 15px;
+    }
+    .resume button:hover {
+      transform: scale(1.05);
   }
-  
-  .resume .itemLeft .conectorLeft .circleLeft {
-    display: block;
-    height: 10px;
-    width: 10px;
-    border-radius: 50%;
-    background-color: #1cb698;
-    float: right;
-    position: relative;
-    bottom: 4px;
-  }
-  
-  .resume .itemRight .conectorRight {
-    height: 2px;
-    background-color: #1cb698;
-    width: 47px;
-    position: absolute;
-    top: 50%;
-    left: -47px;
-    z-index: 5;
-  }
-  
-  .resume .itemRight .conectorRight .circleRight {
-    display: block;
-    height: 10px;
-    width: 10px;
-    border-radius: 50%;
-    background-color: #1cb698;
-    float: right;
-    position: relative;
-    bottom: 4px;
+
+  .resume button:active {
+      transform: translate(2px);
+      box-shadow: 0 2px 2px rgb(0, 0, 0, 0.25);
   }

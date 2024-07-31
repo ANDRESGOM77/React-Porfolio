@@ -19,8 +19,6 @@ function App() {
         <Route path="/Projects" element={<Projects />} />
         <Route path="/ContactMe" element={<ContactMe />} />
       </Routes>
-
-      {/* <Footer/> */}
     </>
   );
 }

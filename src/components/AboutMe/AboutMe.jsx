@@ -1,19 +1,25 @@
 import React from "react";
 import styles from "./AboutMe.module.css";
-
+import { FaGamepad } from "react-icons/fa";
+import { FaMusic } from "react-icons/fa";
+import { MdTravelExplore } from "react-icons/md";
+import { MdOutlineSystemSecurityUpdateGood } from "react-icons/md";
+import { MdOutlineSportsBasketball } from "react-icons/md";
+import { IoBookSharp } from "react-icons/io5";
+import { FaBowlFood } from "react-icons/fa6";
 export const AboutMe = () => {
   return (
     <section id="aboutMe" className={styles.aboutMe}>
       <div className={styles.containerSection}>
         <h2>ABOUT ME</h2>
         <p>
-          <span>Hi there, I'm Andres Gomez</span>Lorem ipsum dolor sit amet
-          consectetur adipisicing elit. Quisquam, quaerat. Lorem ipsum dolor sit
-          amet consectetur adipisicing elit. Quisquam, quaerat. Lorem ipsum
-          dolor sit amet consectetur adipisicing elit. Quisquam, quaerat. Lorem
-          ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quaerat.
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam,
-          quaerat.
+          <span>Hi there, I'm Andres Gomez</span>I'm a passionate individual
+          with a diverse range of interests, including games, music, travel,
+          sports, and reading. As a full-stack developer, I enjoy creating and
+          working on various projects that challenge and inspire me. Whether I'm
+          coding, exploring new places, or diving into a good book, I always
+          strive to learn and grow. Thanks for stopping by, and feel free to
+          connect with me!
         </p>
         <div className={styles.row}>
           <div className={styles.col}>
@@ -44,44 +50,39 @@ export const AboutMe = () => {
             <h3>Interest</h3>
             <div className={styles.containerInterest}>
               <div className={styles.interest}>
-                {/* <i className="fa-solid fa-gamepad"></i> */}
+                <FaGamepad />
                 <span>Games</span>
               </div>
               <div className={styles.interest}>
-                {/* <i className="fa-solid fa-headphones"></i> */}
+                <FaMusic />
                 <span>Music</span>
               </div>
               <div className={styles.interest}>
-                {/* <i className="fa-solid fa-plane"></i> */}
+                <MdTravelExplore />
                 <span>Travel</span>
               </div>
               <div className={styles.interest}>
-                {/* <i className="fa-brands fa-windows"></i> */}
+                <MdOutlineSystemSecurityUpdateGood />
+                <span>Technology</span>
+              </div>
+              <div className={styles.interest}>
+                <FaBowlFood />
                 <span>Windows</span>
               </div>
               <div className={styles.interest}>
-                {/* <i className="fa-brands fa-windows"></i> */}
-                <span>Windows</span>
-              </div>
-              <div className={styles.interest}>
-                {/* <i className="fa-solid fa-basketball"></i> */}
+                <MdOutlineSportsBasketball />
                 <span>Sport</span>
               </div>
               <div className={styles.interest}>
-                {/* <i className="fa-solid fa-book"></i> */}
+                <IoBookSharp />
                 <span>Read</span>
               </div>
             </div>
           </div>
         </div>
-        <button>
-          Download CV
-          {/* Download CV<i className="fa-solid fa-download"></i> */}
-          <span className={styles.overlay}></span>
-        </button>
       </div>
     </section>
   );
 };
- 
+
 export default AboutMe;

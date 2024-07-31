@@ -12,6 +12,7 @@ import linkedinDark from "../../assets/linkedin-dark.svg";
 import CV from "../../assets/Professional Modern CV Resume (2).pdf";
 import { useTheme } from "../../common/ThemeContext";
 
+
 function Hero() {
   const { theme, toggleTheme } = useTheme();
 
