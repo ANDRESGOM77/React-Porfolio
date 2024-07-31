@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./ContactMe.module.css"
-
+import maps from "../../assets/maps.jpeg"
 export const ContactMe = () => {
   return (
     <section className={styles.contactMe} id="contact-me">
@@ -20,7 +20,7 @@ export const ContactMe = () => {
             </button>
           </div>
           <div className={styles.col}>
-            <img src="" alt="Location of Sydney" />
+            <img src={maps} className= {styles.maps} alt="Location of Sydney" />
             <div className={styles.info}>
               <ul>
                 <li>
