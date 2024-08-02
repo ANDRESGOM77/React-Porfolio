@@ -1,24 +1,23 @@
-import React from "react";
-import styles from "./Footer.module.css";
+import "./Footer.css";
 import { FaGithub } from "react-icons/fa";
 import { CiLinkedin } from "react-icons/ci";
 import { FaInstagram } from "react-icons/fa";
 import { FaSlack } from "react-icons/fa";
 
 function Footer() {
-  const { theme } = useTheme();
-
-  // const instagramIcon = theme === "light" ? instaLight : instaDark;
-  // const githubIcon = theme === "light" ? githubLight : githubDark;
-  // const linkedinIcon = theme === "light" ? linkedinLight : linkedinDark;
-
   return (
-    <footer className={styles.footer}>
-      <div className={styles.socials}>
-      <FaGithub />
-      <CiLinkedin />
-      <FaInstagram />
-      <FaSlack />
+    <footer className="footer">
+      <div className="socials">
+        <a href="https://github.com/ANDRESGOM77">
+          <FaGithub className="Git" />
+        </a>
+        <a href="https://www.linkedin.com/in/andres-julian-gomez-suarez/">
+          <CiLinkedin className="link" />
+        </a>
+        <a href="https://www.instagram.com/andres_gomez77/">
+          <FaInstagram className="Insta" />
+        </a>
+        <FaSlack className="slack" />
       </div>
     </footer>
   );

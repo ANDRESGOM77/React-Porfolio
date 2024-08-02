@@ -48,7 +48,7 @@ export const Resume = () => {
             <div className={styles.itemRight}>
               <h4>Team Leader</h4>
               <span className={styles.house}>The Crowne Plaza — Coogee </span>
-              <span className={styles.date}>2012-2017</span>
+              <span className={styles.date}>Current</span>
               <p>
                 As a Team Leader, you manage the dining staff, coordinate
                 service, and ensure guest satisfaction. You oversee shifts,
