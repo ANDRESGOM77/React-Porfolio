@@ -25,7 +25,7 @@ This is a personal portfolio website built using React and Vite. The purpose of 
 - Frontend: Built using React, a popular JavaScript library for building user interfaces.
 - ** Bundler**: Vite is used as the bundler, which provides fast and efficient development and production builds.
 - CSS: CSS is used for styling, with a focus on simplicity and readability.
-Deployment: The portfolio is deployed on Vercel, a platform for hosting and deploying modern web applications.
+Deployment: The portfolio is deployed on Netlify, a platform for hosting and deploying modern web applications.
 
 
 ## Installation 
@@ -40,6 +40,11 @@ Deployment: The portfolio is deployed on Vercel, a platform for hosting and depl
     - Install dependencies: npm install 
     - Start the development server: npm run dev 
     - Open the portfolio in your browser: http://localhost:5173
+
+
+## links
+
+
 
 ## License
 
