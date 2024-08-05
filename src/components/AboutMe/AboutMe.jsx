@@ -7,7 +7,9 @@ import { MdOutlineSystemSecurityUpdateGood } from "react-icons/md";
 import { MdOutlineSportsBasketball } from "react-icons/md";
 import { IoBookSharp } from "react-icons/io5";
 import { FaBowlFood } from "react-icons/fa6";
-export const AboutMe = () => {
+
+
+ const AboutMe = () => {
   return (
     <section id="aboutMe" className={styles.aboutMe}>
       <div className={styles.containerSection}>

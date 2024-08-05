@@ -1,30 +1,31 @@
 import React from "react";
 import "./Navbar.css";
 import Logo from "../../../public/Hotpot.png";
+import { Link } from "react-router-dom";
 
-export const Navbar = () => {
+const Navbar = () => {
   return (
     <div className='containerHeader'>
       <section>
         <div className='logo'>
-          <a href="/">Andres</a>
+          <Link to="/">Andres</Link>
         </div>
         <nav id="nav">
           <ul>
             <li>
-              <a href="/">HOME</a>
+              <Link to="/">HOME</Link>
             </li>
             <li>
-              <a href="/AboutMe">ABOUT</a>
+              <Link to="/AboutMe">ABOUT</Link>
             </li>
             <li>
-              <a href="/Resume">RESUME</a>
+              <Link to="/Resume">RESUME</Link>
             </li>
             <li>
-              <a href="/Projects">PORTFOLIO</a>
+              <Link to="/Projects">PORTFOLIO</Link>
             </li>
             <li>
-              <a href="/ContactMe">CONTACT ME</a>
+              <Link to="/ContactMe">CONTACT ME</Link>
             </li>
           </ul>
         </nav>
@@ -33,3 +34,6 @@ export const Navbar = () => {
     </div>
   );
 };
+
+
+export default Navbar

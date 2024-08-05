@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./Resume.module.css";
 import CV from "../../assets/Professional Modern CV Resume (2).pdf";
 
-export const Resume = () => {
+ const Resume = () => {
   return (
     <section id="resume" className={styles.resume}>
       <div className={styles.containerSection}>
@@ -79,3 +79,4 @@ export const Resume = () => {
     </section>
   );
 };
+export default Resume

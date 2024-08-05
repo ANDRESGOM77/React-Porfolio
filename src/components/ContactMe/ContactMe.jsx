@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./ContactMe.module.css"
 import maps from "../../assets/maps.jpeg"
-export const ContactMe = () => {
+ const ContactMe = () => {
   return (
     <section className={styles.contactMe} id="contact-me">
       <div className={styles.containerSection}>
