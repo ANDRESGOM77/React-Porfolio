@@ -1,12 +1,12 @@
 import React from "react";
-import styles from "./Navbar.module.css";
+import "./Navbar.css";
 import Logo from "../../../public/Hotpot.png";
 
 export const Navbar = () => {
   return (
-    <div className={styles.containerHeader}>
+    <div className='containerHeader'>
       <section>
-        <div className={styles.logo}>
+        <div className='logo'>
           <a href="/">Andres</a>
         </div>
         <nav id="nav">
