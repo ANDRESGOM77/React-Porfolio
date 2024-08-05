@@ -28,7 +28,7 @@ export const Navbar = () => {
             </li>
           </ul>
         </nav>
-        <div className={styles.navResponsive} ></div>
+       
       </section>
     </div>
   );
